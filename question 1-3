@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyMath
+{
+    public class subtract
+    {
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter frst jackpot amount: ");
+            double operand1 = double.Parse(Console.ReadLine());
+            Console.Write("Enter second jackpot amount: ");
+            double operand2 = double.Parse(Console.ReadLine());
+            double result = operand1 + operand2;
+            Console.Write("Result is: " + result);
+
+            Console.WriteLine("Maximum is: " + result);
+        }
+        private static double Maximum;
+
+        public double multiply = operand1 * operand2;
+        private static int operand1;
+        private static int operand2;
+
+        public double divide = operand1 * operand2;
+        public double add = operand1 * operand2;
+        public double subtract = operand1 * operand2;
+
+        public double GetResult;
+        double result = operand1 + operand2;
+    }
+}
